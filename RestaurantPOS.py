@@ -27,7 +27,6 @@ class RestaurantPOS:
         #.pack kullanmamızın sebebi ekranda görünmesini istememiz kullanmazsak arkada oluşur
 
         #etiket oluşturuyoruz(ne yazıcak, hangi fontta olucak vs.)
-        #not : bg demek arka plan rengi demektir
         tk.Label(self.left_frame, text = "Ana yemekler", font=("Helvetica", 18, "bold"), bg = "white").pack(pady=15)
 
         #şimdi butonlarımızı oluşturuyoruz
